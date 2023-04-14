@@ -1,0 +1,13 @@
+FROM node 
+
+WORKDIR /app
+
+COPY important_info.txt .
+
+COPY important_info2.txt /
+
+USER node
+
+COPY --chown=node:node file.js .
+
+CMD node file.js
