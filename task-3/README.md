@@ -1,4 +1,4 @@
-# dockerlive-study
+# Improving the Developer Experience of Dockerfiles
 
 ## Task 3
 
@@ -8,7 +8,7 @@ The objective of this task is to optimize is to fix the provided Dockerfile. In 
 
 ### Project Description
 
-The project consists of a small Node.js script that starts an [Express](http://expressjs.com/) server.
+The project consists of a small Node.js script that starts an [Express](http://expressjs.com/) server. When running the container, the expected output is "Listening on port 3000...".
 
 ### Restrictions
 
