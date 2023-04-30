@@ -5,5 +5,3 @@
 ./setup.sh 1 $1
 ./setup.sh 2 $1
 ./setup.sh 3 $1
-cp *.zip ~/Desktop
-$1 && cp instructions.pdf ~/Desktop
