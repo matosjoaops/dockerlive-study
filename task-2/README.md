@@ -14,6 +14,7 @@ The project consists of a small Node.js script that tries to read information fr
 
 - **You are not allowed to keep the files from being copied into the container or change the directories they are copied to**
 - **You are not allowed to change the content of the text files being copied or replace them with other files**
+- **You are not allowed to change the permissions of the files being copied into the container**
 - **You are not allowed to modify the source code of the script**
 - **You must use Visual Studio Code to edit the Dockerfile**
 - **You may not install other Visual Studio Code extensions or modify the editor's configuration**
