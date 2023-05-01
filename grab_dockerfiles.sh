@@ -2,8 +2,7 @@
 
 # The only argument is the participant's name (without spaces)
 
-if [[ -n "$1" ]];
-then
+if [[ -n "$1" ]]; then
   echo "Grabbing Dockerfiles from participant $1..."
   cp ~/Desktop/task-1/Dockerfile ~/.STUDY_FILES/Dockerfile.$1.task-1
   cp ~/Desktop/task-2/Dockerfile ~/.STUDY_FILES/Dockerfile.$1.task-2

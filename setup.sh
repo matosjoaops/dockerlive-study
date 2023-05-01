@@ -1,13 +1,21 @@
 #!/bin/bash
 
-# First argument is number of task (1,2 or 3)
-# Second argument is a boolean indicating if dockerlive's instructions should be included
+# The only argument is a boolean indicating if dockerlive's instructions should be included
 
-if [[ $1 -eq 2 ]];
-then
-    chmod 0700 task-2/*.txt
+rsync -av --exclude='*/*.md' --exclude='*/*.expected' --exclude='*/*.pdf' task-1 ~/Desktop
+
+chmod 0700 task-2/*.txt
+
+rsync -av --exclude='*/*.md' --exclude='*/*.expected' --exclude='*/*.pdf' task-2 ~/Desktop
+
+rsync -av --exclude='*/*.md' --exclude='*/*.expected' --exclude='*/*.pdf' task-3 ~/Desktop
+
+if [[ "$1" == "true" ]]; then
+    pdfunite dockerlive-instructions/instructions.pdf task-1/instructions.pdf task-2/instructions.pdf task-3/instructions.pdf instructions.pdf
+elif [[ "$1" == "false" ]]; then
+    pdfunite task-1/instructions.pdf task-2/instructions.pdf task-3/instructions.pdf instructions.pdf
+else 
+    echo "Invalid or missing argument!"
 fi
 
-rsync -av --exclude='*/*.md' --exclude='*/*.expected' task-$1 ~/Desktop
-
-$2 && cp dockerlive-instructions/instructions.pdf ~/Desktop/dockerlive-instructions.pdf
+mv instructions.pdf ~/Desktop
