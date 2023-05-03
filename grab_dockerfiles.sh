@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# The only argument is the participant's name (without spaces)
+# The only argument is the participant's email (without spaces)
 
 if [[ -n "$1" ]]; then
   echo "Grabbing Dockerfiles from participant $1..."
