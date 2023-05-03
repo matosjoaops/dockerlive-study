@@ -1,36 +1,36 @@
-# Dockerlive
+## Dockerlive
 
-## Introduction
+### Introduction
 
 Dockerlive is a Visual Studio Code extension that aims to help developers who need to work with Dockerfiles. The extension continually builds an image using the Dockerfile that is currently being edited and offers several features that make Dockerfile development. You can find a list of the extension's features below.
 
-## Features
+### Features
 
-### Static Analysis Errors
+#### Static Analysis Errors
 
 The Dockerfile is scanned and any syntax errors are marked with a red underline. Hovering over the underlined region will show additional information.
 
 ![](./images/static_error.png)
 
-### Image Build and Container Runtime Errors
+#### Image Build and Container Runtime Errors
 
 If errors occur while building the image, the instruction responsible for the build failure is marked with a red underline. Hovering over the underlined region will show additional information.
 
 ![](./images/runtime_error.png)
 
-### Processes running in the container 
+#### Processes running in the container 
 
 By hovering over ENTRYPOINT/CMD instructions, the processes running inside the container are shown.
 
 ![](./images/container_processes.png)
 
-### Base image OS information
+#### Base image OS information
 
 By hovering over the name of the image in the FROM instruction, it's possible to obtain information about the OS running inside the container.
 
 ![](./images/os_info.png)
 
-### Layer Size and Build Time
+#### Layer Size and Build Time
 
 Above every instruction, some information is displayed about the layer that instruction corresponds to:
 
@@ -39,7 +39,7 @@ Above every instruction, some information is displayed about the layer that inst
 
 ![](./images/layer_info.png)
 
-### Repair Opportunities and Quick Fixes
+#### Repair Opportunities and Quick Fixes
 
 When the extension detects problems that can be repaired, it marks them with a yellow underline (the environment variable problems are processed separately despite using an underline with the same color). Hovering over the underlined region will show additional information.
 
@@ -55,7 +55,7 @@ To detect some problems, the extension needs to generate an alternative Dockerfi
 
 After the generation is complete, all the available repair opportunities will be presented.
 
-### Container log output
+#### Container log output
 
 The output of the `docker build` command and the output of the container itself are shown in the editor's output pane.
 
