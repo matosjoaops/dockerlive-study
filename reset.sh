@@ -3,4 +3,6 @@
 docker rm -vf $(docker ps -aq)
 docker rmi -f $(docker images -aq)
 
-rm -rf ~/.config/Code
+if [[ $USER == "study" ]]; then
+    rm -rf ~/.config/Code
+fi
