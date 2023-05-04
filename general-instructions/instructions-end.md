@@ -5,6 +5,7 @@
 - You should **only edit the Dockerfile**.
 - Feel free to consult this document at any time.
 - You have a maximum of 20 minutes to complete each task.
+- You are allowed to inspect the source code of the scripts in each task. 
 - You are allowed to use a web browser to look for information while performing the tasks. However, **you are not allowed to use tools and applications besides those present on the remote machine, do not use tools present on your computer unless explicitly stated, for example, if you need to use a web browser, use the one that is installed on this machine instead of using one that is installed on yours.**
 - **You are not allowed to modify the source code of the scripts in each task.**
 - **You must use Visual Studio Code to edit the Dockerfile.**

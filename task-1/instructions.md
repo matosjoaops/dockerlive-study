@@ -3,7 +3,7 @@
 
 ### Objective
 
-The objective of this task is to improve the supplied Dockerfile, making the size of the final image as small as possible while keeping existing functionality.
+The objective of this task is to improve the supplied Dockerfile, making the final image as small as possible while keeping existing functionality. The task ends when you think you can not make the image any smaller.
 
 ### Project Description
 

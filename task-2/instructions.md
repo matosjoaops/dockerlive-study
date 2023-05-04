@@ -3,7 +3,7 @@
 
 ### Objective
 
-The objective of this task is to improve the supplied Dockerfile by making it more secure, while maintaining existing functionality.
+The objective of this task is to improve the supplied Dockerfile by making it more secure, while maintaining existing functionality. The task ends when the output of running the container shows the segment "Could not get the data." twice.
 
 ### Project Description
 
