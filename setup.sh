@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# The only argument is a boolean indicating if dockerlive's instructions should be included
+# The only argument is a boolean indicating if the experimental version is the desired one
 
 rsync -av --exclude='*/*.md' --exclude='*/*.expected' --exclude='*/*.pdf' task-1 ~/Desktop
 
@@ -14,6 +14,7 @@ if [[ "$1" == "true" ]]; then
     pdfunite general-instructions/instructions-start-experimental.pdf dockerlive-instructions/instructions.pdf general-instructions/instructions-end.pdf task-1/instructions.pdf task-2/instructions.pdf task-3/instructions.pdf instructions.pdf
 elif [[ "$1" == "false" ]]; then
     pdfunite general-instructions/instructions-start-control.pdf general-instructions/instructions-end.pdf task-1/instructions.pdf task-2/instructions.pdf task-3/instructions.pdf instructions.pdf
+    cp docker_cheatsheet.pdf ~/Desktop
 else 
     echo "Invalid or missing argument!"
 fi

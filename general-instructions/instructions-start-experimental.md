@@ -6,4 +6,4 @@ Before proceeding, please fill the first two sections of the form linked below. 
 
 [https://forms.gle/KyTfNozT26Zmjuio9](https://forms.gle/KyTfNozT26Zmjuio9)
 
-In this experiment you will perform 3 tasks. In each task you must edit a Dockerfile using Visual Studio Code. To help with these tasks, you will be using a Visual Studio Code extension called Dockerlive. The following section explains Dockerlive's features. You have 10 minutes to read the section and understand how Dockerlive works. Notify the observer if there is something you do not understand.
+In this experiment you will perform 3 tasks. In each task you must edit a Dockerfile using Visual Studio Code. To help with these tasks, you will be using a Visual Studio Code extension called Dockerlive. The following section explains Dockerlive's features. You have 10 minutes to read the section and understand how Dockerlive works (although you can look at it again while performing the tasks if you feel the need to do so). Notify the observer if there is something you do not understand.
