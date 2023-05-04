@@ -3,7 +3,7 @@
 
 ### Objective
 
-The objective of this task is to make the provided Dockerfile more secure. You should use the knowledge you have about Docker to make the final image as secure as possible. 
+The objective of this task is to improve the supplied Dockerfile, making it more secure, while maintaining existing functionality.
 
 ### Project Description
 
