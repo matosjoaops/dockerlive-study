@@ -3,7 +3,7 @@
 
 ### Objective
 
-The objective of this task is to improve the supplied Dockerfile, making it more secure, while maintaining existing functionality.
+The objective of this task is to improve the supplied Dockerfile by making it more secure, while maintaining existing functionality.
 
 ### Project Description
 
