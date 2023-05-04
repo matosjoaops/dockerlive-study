@@ -3,7 +3,7 @@
 
 ### Objective
 
-The objective of this task is to optimize and to fix the provided Dockerfile. In its current state, the Dockerfile that has been provided will not produce a container that can run this project. You should use the knowledge you have about Docker to fix the problems in the Dockerfile. You should also try to make sure the file is well-documented and that no unnecessary actions are performed.
+The objective of this task is to optimize and to fix the provided Dockerfile, which has problems related to dependencies. In its current state, the Dockerfile that has been provided will not produce a container that can run this project. You should try to fix the Dockerfile by making sure the correct set of dependencies is installed.
 
 ### Project Description
 
