@@ -17,6 +17,6 @@
 ## Instructions
 
 - In the /home/study/Desktop folder, alongside these instructions, you will find three folders: "task-1", "task-2" and "task-3". Each of these directories contains the files that are required for each task.
-- Do the tasks in order and notify the observer before starting and after finishing **each** task. After finishing a task and notifying the observer, fill the section of the questionnaire that corresponds to the task you just completed (again, this should be done on **your** machine, anything else should be done using what is installed on the remote machine).
+- Do the tasks in order (you should open Visual Studio Code in the directory that corresponds to the task that you are currently performing) and notify the observer before starting and after finishing **each** task. After finishing a task (**do not forget to save the Dockerfile after editing it**) and notifying the observer, fill the section of the questionnaire that corresponds to the task you just completed (again, this should be done on **your** machine, anything else should be done using what is installed on the remote machine).
 - Instructions for each task are available in the remaining sections of this document. **Please read them carefully. Note that each task may have other restrictions besides those listed previously.**
 - Once you are ready, notify the observer and start task 1 (the instructions for this task can be found right after this section).
