@@ -41,7 +41,7 @@ Above every instruction, some information is displayed about the layer that inst
 
 #### Repair Opportunities and Quick Fixes
 
-When the extension detects problems that can be repaired, it marks them with a yellow underline (the environment variable problems are processed separately despite using an underline with the same color). Hovering over the underlined region will show additional information.
+When the extension detects problems that can be repaired, it marks them with a yellow underline (the environment variable problems are processed separately despite using an underline with the same color). Hovering over the underlined region will show additional information. The same section of the file may have multiple problems. 
 
 ![](./images/repairable_warning.png)
 
