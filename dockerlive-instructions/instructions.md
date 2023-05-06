@@ -49,7 +49,7 @@ These problems have corresponding quick fixes that can be applied. Quick fixes c
 
 ![](./images/quick_fix.png)
 
-To detect some problems, the extension needs to generate an alternative Dockerfile in the background and compare it with the one being edited. Because of this, the first time a Dockerfile is opened, the extension will automatically start the generation. This process can take some time and the progress can be tracked in the bottom-right corner of the editor. Until this process is finished, no diagnostic information will be shown. Furthermore, until the generation is complete a file called "Dockerfile.strace" will show up in the current directory, this is a temporary file that is required to perform the generation and should be ignored. This file will be deleted automatically once the generation is complete.
+To detect some problems, the extension needs to generate an alternative Dockerfile in the background and compare it with the one being edited. Because of this, the first time a Dockerfile is opened, the extension will automatically start the generation. This process can take some time and the progress can be tracked in the bottom-right corner of the editor. Until this process is finished, no diagnostic information will be shown. Furthermore, until the generation is complete a file called "Dockerfile.strace" will show up in the current directory, this is a temporary file that is required to perform the generation and should be **ignored**. This file will be deleted automatically once the generation is complete.
 
 ![](./images/generation_progress.png)
 
@@ -60,3 +60,7 @@ After the generation is complete, all the available repair opportunities will be
 The output of the `docker build` command and the output of the container itself are shown in the editor's output pane.
 
 ![](./images/docker_output.png)
+
+#### Notes
+
+To continually build an image, Dockerlive creates a temporary file called "tmp.Dockerfile". This file should be **ignored**.
