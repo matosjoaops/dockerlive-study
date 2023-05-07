@@ -57,7 +57,7 @@ After the generation is complete, all the available repair opportunities will be
 
 #### Container log output
 
-The output of the `docker build` command and the output of the container itself are shown in the editor's output pane.
+The output of the `docker build` command and the output of the container itself are shown in the editor's output pane. This pane is accessible through (View > Output) or through the keyboard shortcut [Ctrl+K Ctrl+H].
 
 ![](./images/docker_output.png)
 
