@@ -13,4 +13,4 @@ The project consists of a small Node.js script that tries to read information fr
 
 - **You are not allowed to keep the files from being copied into the container or change the directories they are copied to. In other words, you are not allowed to change the source and destination arguments used in the COPY instructions. You are also not allowed to remove the COPY instructions.**
 - **You are not allowed to change the content of the text files being copied or replace them with other files.**
-- **You are not allowed to change the permissions of the files being copied into the container (using something like `chmod`).**
+- **You are not allowed to change the permissions of the files being copied into the container (this includes, but is not limited to, using tools like `chmod`).**
