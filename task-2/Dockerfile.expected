@@ -2,6 +2,8 @@ FROM node
 
 WORKDIR /app
 
+COPY package*.json .
+
 COPY important_info.txt .
 
 COPY important_info2.txt /

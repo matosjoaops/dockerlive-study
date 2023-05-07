@@ -1,4 +1,6 @@
-FROM node 
+FROM node
+
+COPY package*.json .
 
 COPY important_info.txt .
 
