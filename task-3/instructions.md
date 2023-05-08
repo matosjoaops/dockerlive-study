@@ -8,3 +8,7 @@ The objective of this task is to optimize and to fix the provided Dockerfile, wh
 ### Project Description
 
 The project consists of a small Node.js script that starts an [Express](http://expressjs.com/) server. When running the container, the expected output is "Listening on port 3000...".
+
+### Restrictions
+
+- **You should only edit the Dockerfile.**

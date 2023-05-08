@@ -13,3 +13,4 @@ The project consists of a small Python script that parses an HTML document and p
 
 - **You are not allowed to replace HTTPie with a different utility.**
 - **You are not allowed to download a different file to be parsed by the script.**
+- **You should only edit the Dockerfile.**
